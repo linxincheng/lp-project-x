@@ -1,9 +1,9 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import React, { ReactNode } from "react";
+import React from "react";
 import { Navigate, Route, Routes } from "react-router";
 import TestPage from "./pages/test/index";
 
-export const Routers = ({ children }: { children: ReactNode }) => {
+export const Routers = () => {
   return (
     <>
       <Router>
